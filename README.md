@@ -77,24 +77,26 @@ spring-cloud-microservices/\
 
 ### Service Endpoints
 
-Eureka Dashboard: http://localhost:8761\
-Service A (via Gateway): http://localhost:8080/service-a/data\
-Service B (via Gateway): http://localhost:8080/service-b/info\
-Health Endpoints:
-http://localhost:8080/service-a/health\
-http://localhost:8080/service-b/health\
+Eureka Dashboard: http://localhost:8761 \
+Service A (via Gateway): http://localhost:8080/service-a/data \
+Service B (via Gateway): http://localhost:8080/service-b/info \
+
+### Health Endpoints:
+
+http://localhost:8080/service-a/health \
+http://localhost:8080/service-b/health \
 
 ### Features Demonstrated
 
 Service Registration and Discovery\
-Centralized Configuration
-Load Balancing
+Centralized Configuration\
+Load Balancing\
 API Gateway Routing\
 Inter-service Communication\
 Containerized Deployment\
 Health Monitoring\
-Docker Commands
-View logs: docker-compose logs -f
+Docker Commands\
+View logs: docker-compose logs -f\
 Stop services: docker-compose down\
 Rebuild services: docker-compose up -d --build\
 
