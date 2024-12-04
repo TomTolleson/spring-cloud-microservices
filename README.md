@@ -105,7 +105,7 @@ Rebuild services: docker-compose up -d --build\
 Spring Boot 3.2.0\
 Spring Cloud 2023.0.0\
 Docker\
-Maven \
+Maven\
 
 ### Contributing
 Feel free to submit issues and enhancement requests.
