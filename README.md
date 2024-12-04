@@ -2,6 +2,11 @@
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33D?style=for-the-badge&logo=spring&logoColor=white)
+![SpringCloud](https://img.shields.io/badge/SpringCloud-6DB33D?style=for-the-badge&logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Eureka](https://img.shields.io/badge/Eureka-000000?style=for-the-badge&logo=Eureka&logoColor=white)
+![API Gateway](https://img.shields.io/badge/API%20Gateway-000000?style=for-the-badge&logo=API%20Gateway&logoColor=white)
 
 > A comprehensive demonstration of Spring Cloud capabilities through a microservices architecture.
 ### Project Overview
@@ -72,30 +77,35 @@ spring-cloud-microservices/\
 
 ### Service Endpoints
 
-Eureka Dashboard: http://localhost:8761
-Service A (via Gateway): http://localhost:8080/service-a/data
-Service B (via Gateway): http://localhost:8080/service-b/info
+Eureka Dashboard: http://localhost:8761\
+Service A (via Gateway): http://localhost:8080/service-a/data\
+Service B (via Gateway): http://localhost:8080/service-b/info\
 Health Endpoints:
-http://localhost:8080/service-a/health
-http://localhost:8080/service-b/health
-Features Demonstrated
-Service Registration and Discovery
+http://localhost:8080/service-a/health\
+http://localhost:8080/service-b/health\
+
+### Features Demonstrated
+
+Service Registration and Discovery\
 Centralized Configuration
 Load Balancing
-API Gateway Routing
-Inter-service Communication
-Containerized Deployment
-Health Monitoring
+API Gateway Routing\
+Inter-service Communication\
+Containerized Deployment\
+Health Monitoring\
 Docker Commands
 View logs: docker-compose logs -f
-Stop services: docker-compose down
-Rebuild services: docker-compose up -d --build
-Technologies Used
-Spring Boot 3.2.0
-Spring Cloud 2023.0.0
-Docker
-Maven
-Contributing
+Stop services: docker-compose down\
+Rebuild services: docker-compose up -d --build\
+
+### Technologies Used
+
+Spring Boot 3.2.0\
+Spring Cloud 2023.0.0\
+Docker\
+Maven \
+
+### Contributing
 Feel free to submit issues and enhancement requests.
 
 ## License
