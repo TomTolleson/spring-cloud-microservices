@@ -1,0 +1,51 @@
+services:
+  config-server:
+    build: ./config-server
+    container_name: config-server
+    ports:
+      - "8888:8888"
+    networks:
+      - spring-cloud-network
+
+  service-registry:
+    build: ./service-registry
+    container_name: service-registry
+    ports:
+      - "8761:8761"
+    depends_on:
+      - config-server
+    networks:
+      - spring-cloud-network
+
+  api-gateway:
+    build: ./api-gateway
+    container_name: api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - config-server
+      - service-registry
+    networks:
+      - spring-cloud-network
+
+  service-a:
+    build: ./service-a
+    container_name: service-a
+    depends_on:
+      - config-server
+      - service-registry
+    networks:
+      - spring-cloud-network
+
+  service-b:
+    build: ./service-b
+    container_name: service-b
+    depends_on:
+      - config-server
+      - service-registry
+    networks:
+      - spring-cloud-network
+
+networks:
+  spring-cloud-network:
+    name: spring-cloud-network
