@@ -45,26 +45,29 @@ npm run build --report
 
 The project consists of the following components:
 
-Config Server (Port 8888)
-Service Registry (Port 8761)
-API Gateway (Port 8080)
-Service A (Port 8081)
-Service B (Port 8082)
-Prerequisites
-Java 17
-Maven
-Docker
+Config Server (Port 8888)\
+Service Registry (Port 8761)\
+API Gateway (Port 8080)\
+Service A (Port 8081)\
+Service B (Port 8082)\
+
+### Prerequisites
+
+Java 17\
+Maven\
+Docker\
 Docker Compose
-Project Structure
-text
-spring-cloud-microservices/
-├── config-server/
-├── service-registry/
+
+### Project Structure
+
+spring-cloud-microservices/\
+├── config-server/\
+├── service-registry/\
 ├── api-gateway/
-├── service-a/
-├── service-b/
-├── docker-compose.yml
-└── pom.xml
+├── service-a/\
+├── service-b/\
+├── docker-compose.yml\
+└── pom.xml\
 
 
 ### Service Endpoints
