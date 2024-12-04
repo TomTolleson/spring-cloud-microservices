@@ -54,7 +54,7 @@ Config Server (Port 8888)\
 Service Registry (Port 8761)\
 API Gateway (Port 8080)\
 Service A (Port 8081)\
-Service B (Port 8082)\
+Service B (Port 8082)
 
 ### Prerequisites
 
@@ -72,19 +72,19 @@ spring-cloud-microservices/\
 ├── service-a/\
 ├── service-b/\
 ├── docker-compose.yml\
-└── pom.xml\
+└── pom.xml
 
 
 ### Service Endpoints
 
 Eureka Dashboard: http://localhost:8761 \
 Service A (via Gateway): http://localhost:8080/service-a/data \
-Service B (via Gateway): http://localhost:8080/service-b/info \
+Service B (via Gateway): http://localhost:8080/service-b/info 
 
 ### Health Endpoints:
 
 http://localhost:8080/service-a/health \
-http://localhost:8080/service-b/health \
+http://localhost:8080/service-b/health 
 
 ### Features Demonstrated
 
@@ -98,14 +98,14 @@ Health Monitoring\
 Docker Commands\
 View logs: docker-compose logs -f\
 Stop services: docker-compose down\
-Rebuild services: docker-compose up -d --build\
+Rebuild services: docker-compose up -d --build
 
 ### Technologies Used
 
 Spring Boot 3.2.0\
 Spring Cloud 2023.0.0\
 Docker\
-Maven\
+Maven
 
 ### Contributing
 Feel free to submit issues and enhancement requests.
